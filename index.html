@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Haowen Sun’s research on robot learning, manipulation, and 3D perception at Xi’an Jiaotong University.">
+  <title>Haowen Sun | Robot Learning</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container site-nav" aria-label="Main navigation">
+      <a class="home-link" href="#about">Haowen Sun</a>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="intro" id="about" aria-labelledby="name">
+      <div class="intro-copy">
+        <h1 id="name">Haowen Sun</h1>
+        <p class="affiliation">Xi’an Jiaotong University</p>
+        <p class="intro-text">I study how robots learn manipulation from limited demonstrations, identify where to interact with objects, and transfer skills from simulation to the real world.</p>
+        <div class="profile-links">
+          <a href="https://scholar.google.com/citations?user=e91KbPIAAAAJ">Google Scholar</a>
+          <a href="https://github.com/darewolf007">GitHub</a>
+        </div>
+      </div>
+      <img class="portrait" src="./assets/haowen-sun.jpg" alt="Haowen Sun working on a robot" width="720" height="728">
+    </section>
+
+    <section class="research" id="research" aria-labelledby="research-title">
+      <h2 id="research-title">Research</h2>
+      <ul class="project-list" role="list">
+        <li>
+          <article class="project">
+            <a class="project-image decow-diagram" href="https://doi.org/10.1109/TII.2026.3688546" aria-label="DeCoW paper. Few demonstrations lead to a compositional world model and a real-robot policy.">
+              <span>Few demonstrations</span>
+              <span>Compositional world model</span>
+              <span>Real-robot policy</span>
+            </a>
+            <div class="project-content">
+              <p class="project-venue">IEEE Transactions on Industrial Informatics · 2026</p>
+              <h3><a href="https://doi.org/10.1109/TII.2026.3688546">DeCoW</a></h3>
+              <p class="project-summary">Builds a simulator and learns a task reward from a few real-world demonstrations, then trains manipulation policies that transfer to real robots without fine-tuning.</p>
+              <p class="links"><a href="https://doi.org/10.1109/TII.2026.3688546">Paper</a></p>
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="project">
+            <a class="project-image" href="https://quest-official.github.io/QUEST/" aria-label="Open the QUEST project">
+              <img src="./assets/quest.jpg" alt="Robot arms and workspaces used for QUEST’s real-world manipulation experiments" width="512" height="235">
+            </a>
+            <div class="project-content">
+              <p class="project-venue">ICML 2026</p>
+              <h3><a href="https://quest-official.github.io/QUEST/">QUEST</a></h3>
+              <p class="project-summary">Uses model uncertainty to guide exploration and planning when a robot has few demonstrations and sparse rewards.</p>
+              <p class="links"><a href="https://proceedings.mlr.press/v306/sun26n.html">Paper</a><a href="https://quest-official.github.io/QUEST/">Project &amp; videos</a></p>
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="project">
+            <a class="project-image" href="https://arxiv.org/abs/2605.01365" aria-label="Read the VoxAfford paper">
+              <img src="./assets/voxafford.jpg" alt="Robot manipulation scenes and predicted 3D affordances from VoxAfford" width="925" height="573" loading="lazy">
+            </a>
+            <div class="project-content">
+              <p class="project-venue">CoRL 2026</p>
+              <h3><a href="https://arxiv.org/abs/2605.01365">VoxAfford</a></h3>
+              <p class="project-summary">Finds where a robot should interact with an object in a 3D point cloud from a natural-language description.</p>
+              <p class="links"><a href="https://arxiv.org/abs/2605.01365">Paper</a><a href="https://github.com/voxafford/voxafford">Project repository</a></p>
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="project">
+            <a class="project-image" href="https://affordsim-platform.github.io/AffordSim.io/" aria-label="Open the AffordSim project">
+              <img src="./assets/affordsim.jpg" alt="Simulated robot gripper over a tabletop with a cutting board and produce" width="960" height="600" loading="lazy">
+            </a>
+            <div class="project-content">
+              <p class="project-venue">NeurIPS 2026 · Evaluations &amp; Datasets</p>
+              <h3><a href="https://affordsim-platform.github.io/AffordSim.io/">AffordSim</a></h3>
+              <p class="project-summary">Generates simulated robot trajectories from natural-language tasks and 3D affordances, with a benchmark covering 50 manipulation tasks.</p>
+              <p class="links"><a href="https://arxiv.org/abs/2604.11674">Paper</a><a href="https://affordsim-platform.github.io/AffordSim.io/">Project</a><a href="https://github.com/AffordSim-Platform/AffordSim">Code</a></p>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section class="publications" id="publications" aria-labelledby="publications-title">
+      <h2 id="publications-title">Publications</h2>
+      <h3 class="publication-group">First- and co-first-author papers</h3>
+      <ul role="list">
+        <li class="paper">
+          <div class="venue"><span>ICML</span><time datetime="2026">2026</time></div>
+          <article>
+            <h4><a href="https://proceedings.mlr.press/v306/sun26n.html">Uncertainty-Guided Exploration and Stable Planning for Sparse-Reward Manipulation from Limited Demonstrations</a></h4>
+            <p class="authors"><strong>Haowen Sun</strong>, Liqi Huang, Mingyang Li, Sihua Ren, Xinzhe Chen, Chengzhong Ma, Zeyang Liu, Xingyu Chen, Xuguang Lan</p>
+            <p class="summary">QUEST uses uncertainty to guide exploration and stabilize model-based planning for sparse-reward robotic manipulation with few demonstrations.</p>
+            <p class="links"><a href="https://quest-official.github.io/QUEST/">Project</a></p>
+          </article>
+        </li>
+        <li class="paper">
+          <div class="venue"><span>IEEE Trans. Industrial Informatics</span><time datetime="2026">2026</time></div>
+          <article>
+            <h4><a href="https://doi.org/10.1109/TII.2026.3688546">Constructing the World From Few Demonstrations: Learning Compositional World Models for Generalizable Robotic Skills</a></h4>
+            <p class="authors"><strong>Haowen Sun</strong>, Chengzhong Ma, Han Wang, Long Qian, Jiawei Ye, Jingchen Li, Xingyu Chen, Zeyang Liu, Xuguang Lan</p>
+            <p class="authors">Vol. 22, no. 9, pp. 7752–7763</p>
+            <p class="summary">DeCoW builds a simulator from real scenes and learns rewards from trajectory similarity and a vision–language model to train policies for zero-shot sim-to-real transfer.</p>
+          </article>
+        </li>
+        <li class="paper">
+          <div class="venue"><span>CoRL</span><time datetime="2026">2026</time></div>
+          <article>
+            <h4><a href="https://arxiv.org/abs/2605.01365">VoxAfford: Multi-Scale Voxel-Token Fusion for Open-Vocabulary 3D Affordance Detection</a></h4>
+            <p class="authors"><strong>Haowen Sun</strong>, Shaolong Zhang, Mingyang Li, Chengzhong Ma, Xinzhe Chen, Qiongjie Cui, Xingyu Chen, Zeyang Liu, Xuguang Lan</p>
+            <p class="summary">VoxAfford fuses multiscale voxel features with language-model tokens to localize interaction regions in 3D point clouds from open-vocabulary prompts.</p>
+            <p class="links"><a href="https://github.com/voxafford/voxafford">Project repository</a></p>
+          </article>
+        </li>
+        <li class="paper">
+          <div class="venue"><span>NeurIPS · Evaluations &amp; Datasets</span><time datetime="2026">2026</time></div>
+          <article>
+            <h4><a href="https://arxiv.org/abs/2604.11674">AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation</a></h4>
+            <p class="authors">Mingyang Li*, Haofan Xu*, <strong>Haowen Sun*</strong>, Xinzhe Chen, Sihua Ren, Liqi Huang, Xinyang Sui, Chenyang Miao, Jiawei Ye, Qiongjie Cui, Xingyu Chen, Zeyang Liu, Xuguang Lan</p>
+            <p class="authors">* Equal contribution</p>
+            <p class="summary">AffordSim uses open-vocabulary 3D affordances to generate simulated manipulation trajectories from natural-language tasks and provides a 50-task benchmark.</p>
+            <p class="links"><a href="https://affordsim-platform.github.io/AffordSim.io/">Project</a><a href="https://github.com/AffordSim-Platform/AffordSim">Code</a></p>
+          </article>
+        </li>
+        <li class="paper">
+          <div class="venue"><span>arXiv preprint</span><time datetime="2025">2025</time></div>
+          <article>
+            <h4><a href="https://arxiv.org/abs/2504.20520">PRISM: Projection-based Reward Integration for Scene-Aware Real-to-Sim-to-Real Transfer with Few Demonstrations</a></h4>
+            <p class="authors"><strong>Haowen Sun</strong>, Han Wang, Chengzhong Ma, Shaolong Zhang, Jiawei Ye, Xingyu Chen, Xuguang Lan</p>
+            <p class="summary">PRISM reconstructs simulation scenes from a few real demonstrations and uses vision–language supervision to learn a projection-based reward for real-to-sim-to-real transfer.</p>
+          </article>
+        </li>
+        <li class="paper">
+          <div class="venue"><span>Image and Vision Computing</span><time datetime="2022">2022</time></div>
+          <article>
+            <h4><a href="https://doi.org/10.1016/j.imavis.2022.104372">A dynamic keypoint selection network for 6DoF pose estimation</a></h4>
+            <p class="authors"><strong>Haowen Sun</strong>, Taiyong Wang, Enlin Yu</p>
+            <p class="summary">The network combines texture and geometry to select foreground keypoints dynamically and estimate an object’s six-degree-of-freedom pose from an RGB-D image.</p>
+          </article>
+        </li>
+      </ul>
+      <h3 class="publication-group">Other publications</h3>
+      <ul role="list">
+        <li class="paper">
+          <div class="venue"><span>NeurIPS · Spotlight</span><time datetime="2026">2026</time></div>
+          <article>
+            <h4><a href="https://arxiv.org/abs/2605.25829">OASIS: Observation-Action Space Alignment via SE(3) Trajectory Prediction for Robotic Manipulation</a></h4>
+            <p class="authors">Xinzhe Chen, Sihua Ren, Liqi Huang, <strong>Haowen Sun</strong>, Mingyang Li, Zeyang Liu, Xingyu Chen, Xuguang Lan</p>
+            <p class="summary">OASIS aligns visual observations with robot actions by predicting SE(3) end-effector trajectories in the camera frame.</p>
+            <p class="links"><a href="https://oasis-neurips.github.io/">Project</a></p>
+          </article>
+        </li>
+        <li class="paper">
+          <div class="venue"><span>CoRL</span><time datetime="2026">2026</time></div>
+          <article>
+            <h4><a href="https://arxiv.org/abs/2610.17281">Phase-Conditioned Affordance Fields for SE(3)-Equivariant Visuomotor Policies</a></h4>
+            <p class="authors">Xinzhe Chen, Liqi Huang, Sihua Ren, <strong>Haowen Sun</strong>, Mingyang Li, Zeyang Liu, Xingyu Chen, Xuguang Lan</p>
+            <p class="summary">The policy uses phase-conditioned affordance fields to identify task-relevant 3D regions as manipulation progresses, while preserving SE(3) equivariance.</p>
+            <p class="links"><a href="https://paf-policy.github.io/">Project</a></p>
+          </article>
+        </li>
+        <li class="paper">
+          <div class="venue"><span>IEEE Trans. Automation Science and Engineering</span><time datetime="2026">2026</time></div>
+          <article>
+            <h4><a href="https://doi.org/10.1109/TASE.2026.3717652">DualSkill: Unifying Discrete Stability and Continuous Flexibility for Embodied Control</a></h4>
+            <p class="authors">Ziru Wang, Long Qian, <strong>Haowen Sun</strong>, Zeyang Liu, Xuguang Lan</p>
+            <p class="summary">DualSkill combines discrete and continuous skill representations to support stable, adaptable embodied control.</p>
+          </article>
+        </li>
+        <li class="paper">
+          <div class="venue"><span>CVPR</span><time datetime="2025">2025</time></div>
+          <article>
+            <h4><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Wang_FlowRAM_Grounding_Flow_Matching_Policy_with_Region-Aware_Mamba_Framework_for_CVPR_2025_paper.html">FlowRAM: Grounding Flow Matching Policy with Region-Aware Mamba Framework for Robotic Manipulation</a></h4>
+            <p class="authors">Sen Wang, Le Wang, Sanping Zhou, Jingyi Tian, Jiayi Li, <strong>Haowen Sun</strong>, Wei Tang</p>
+            <p class="summary">FlowRAM focuses on task-relevant regions in 3D observations and uses a Mamba encoder with conditional flow matching to predict manipulation poses.</p>
+            <p class="links"><a href="https://sanmumumu.github.io/FlowRAM/">Project</a><a href="https://github.com/SanMumumu/FlowRAM">Code</a></p>
+          </article>
+        </li>
+        <li class="paper">
+          <div class="venue"><span>CVPR</span><time datetime="2025">2025</time></div>
+          <article>
+            <h4><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Tian_PDFactor_Learning_Tri-Perspective_View_Policy_Diffusion_Field_for_Multi-Task_Robotic_CVPR_2025_paper.html">PDFactor: Learning Tri-Perspective View Policy Diffusion Field for Multi-Task Robotic Manipulation</a></h4>
+            <p class="authors">Jingyi Tian, Le Wang, Sanping Zhou, Sen Wang, Jiayi Li, <strong>Haowen Sun</strong>, Wei Tang</p>
+            <p class="summary">PDFactor encodes point clouds as three orthogonal feature planes and learns a diffusion field for six-degree-of-freedom actions across manipulation tasks.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="container site-footer">
+    <p>Images cropped from <a href="https://proceedings.mlr.press/v306/sun26n.html">QUEST, Fig. 7</a>, <a href="https://arxiv.org/abs/2605.01365">VoxAfford, Fig. 4</a>, and <a href="https://arxiv.org/abs/2604.11674">AffordSim, Fig. 1</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</p>
+  </footer>
+</body>
+</html>
