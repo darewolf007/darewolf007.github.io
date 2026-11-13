@@ -1,11 +1,10 @@
 :root {
   color-scheme: light;
-  --paper: #faf9f6;
+  --paper: #fff;
   --ink: #202c28;
   --muted: #56625d;
   --accent: #2b6150;
   --rule: #dedfd7;
-  --media: #f0f1eb;
   --body: "DM Sans", system-ui, sans-serif;
   --display: "Instrument Serif", Georgia, serif;
 }
@@ -115,7 +114,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   place-items: center;
   aspect-ratio: 8 / 5;
   padding: .25rem;
-  background: var(--media);
+  background: var(--paper);
   border: 1px solid var(--rule);
   border-radius: .45rem;
   overflow: hidden;
@@ -123,8 +122,6 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .project-image:hover { border-color: var(--accent); }
 .project-image img { display: block; width: 100%; height: 100%; object-fit: contain; }
-
-.decow-figure { background: #fff; }
 
 .project-venue {
   margin-bottom: .25rem;
